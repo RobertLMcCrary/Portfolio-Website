@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+body {
+    font-family: 'Poppins';
+    font-size: 16pt;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpaperaccess.com/full/5277906.jpg');
+    background-size: cover;
+    color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.home-wrapper {
+    margin: 0;
+    padding: 0;
+    padding-top: 10vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.597);
+    width: 100vw;
+    height: 100%;
+    padding-bottom: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.intro-section {
+    margin-right: 10vw;
+    margin-left: 10vw;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile-picture {
+    margin-right: 5vw;
+    margin-left: 5vw;
+    padding: 0;
+    border-radius: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.skills-section {
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.switch-button {
+    background-color: grey;
+    width: 200px;
+    height: 100px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 18pt;
+    font-family: 'Poppins';
+    transition: background 0.5s ease;
+}
+
+.switch-button:hover {
+    background-color: rgb(75, 75, 75);
+    cursor: pointer;
+}
+
+.frameworks {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    gap: 5vw;
+}
+
+.languages {
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    gap: 5vw;
+}
+
+.skill-card {
+    background-color: rgba(128, 128, 128, 0.307);
+    padding: 50px 50px;
+    border-radius: 20px;
+}
+
+.skill-card-image {
+    max-height: 150px;
+    max-width: auto;
+}
+
+.side-projects-cards-section {
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 25vw 25vw 25vw;
+    gap: 5vw;
+}
+
+.project-card {
+    background-color: rgba(128, 128, 128, 0.307);
+    padding: 50px 50px;
+    border-radius: 20px;
+}
+
+.project-card-image {
+    max-height: 225px;
+    max-width: auto;
+    padding: 0 0;
+    border-radius: 10px;
+}
+
+.project-link {
+    color: white;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 20vh;
+}
+
+.footer li {
+    list-style: none;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: white;
 }
