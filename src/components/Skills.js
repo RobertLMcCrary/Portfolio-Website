@@ -48,6 +48,20 @@ function Skills() {
                 />
                 <h2>C#</h2>
             </div>
+            <div className='skill-card'>
+                <img
+                    src='https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png'
+                    className='skill-card-image'
+                />
+                <h2>CSS</h2>
+            </div>
+            <div className='skill-card'>
+                <img
+                    src='https://cdn.icon-icons.com/icons2/2415/PNG/512/typescript_original_logo_icon_146317.png'
+                    className='skill-card-image'
+                />
+                <h2>TypeScript</h2>
+            </div>
         </div>
     )
 
@@ -94,6 +108,27 @@ function Skills() {
                     className='skill-card-image'
                 />
                 <h2>REST APIs</h2>
+            </div>
+            <div className='skill-card'>
+                <img
+                    src='https://desarrolloweb.com/storage/tag_images/actual/F2Cam6JmHqcvyb6Y0GVl7lSCqA4tEYLMufLm5OHo.png'
+                    className='skill-card-image'
+                />
+                <h2>Tailwind</h2>
+            </div>
+            <div className='skill-card'>
+                <img
+                    src='https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png'
+                    className='skill-card-image'
+                />
+                <h2>Bootstrap</h2>
+            </div>
+            <div className='skill-card'>
+                <img
+                    src='https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png'
+                    className='skill-card-image'
+                />
+                <h2>Next js</h2>
             </div>
         </div>
     )

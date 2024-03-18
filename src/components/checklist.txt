@@ -1,6 +1,4 @@
-Languages:
-    -TypeScript
-    -CSS
+
 
 Frameworks:
     -Next.js
